@@ -33,7 +33,7 @@ Use MEDDPICC as the diagnostic framework:
 - **C** ompetition
 Deals with fewer than 5 of 8 MEDDPICC fields populated are underqualified.
 ### Forecasting Methodology
-Move beyond simple stage-weighted probability. Report as: Commit (\>90% confidence), Best Case (\>60%), and Upside (\<60%).
+Move beyond simple stage-weighted probability. Report as: Commit (>90% confidence), Best Case (>60%), and Upside (<60%).
 
 
 ## Output format

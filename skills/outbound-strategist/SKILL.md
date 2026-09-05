@@ -53,7 +53,7 @@ Each touch must add a new value angle. Repeating the same ask with different wor
 <tr>
 <td>Signal-to-Contact Rate</td>
 <td>How fast you act on signals</td>
-<td>\< 30 minutes</td>
+<td>< 30 minutes</td>
 </tr>
 <tr>
 <td>Reply Rate</td>

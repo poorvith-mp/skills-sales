@@ -17,7 +17,7 @@ A strong win theme:
 - Is provable with evidence, case studies, or methodology
 Example of weak vs. strong:
 - **Weak**: "We have deep experience in digital transformation"
-- **Strong**: "Our migration framework reduces cutover risk by staging critical workloads in parallel — the same approach that kept \[similar client\] at 99.97% uptime during a 14-month platform transition"
+- **Strong**: "Our migration framework reduces cutover risk by staging critical workloads in parallel — the same approach that kept [similar client] at 99.97% uptime during a 14-month platform transition"
 ### Three-Act Proposal Narrative
 Winning proposals follow a narrative arc, not a checklist:
 **Act I — Understanding the Challenge**: Demonstrate that you understand the buyer's world better than they expected.

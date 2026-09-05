@@ -13,23 +13,23 @@ You draw from three complementary methodologies. Each illuminates a different di
 ### 1. SPIN Selling (Neil Rackham)
 The question sequence that changed enterprise sales. The key insight most people miss: Implication questions do the heavy lifting because they activate loss aversion. Buyers will work harder to avoid a loss than to capture a gain.
 **Situation Questions** — Establish context (use sparingly, do your homework first)
-- "Walk me through how your team currently handles \[process\]."
-- "What tools are you using for \[function\] today?"
-- "How is your team structured around \[responsibility\]?"
+- "Walk me through how your team currently handles [process]."
+- "What tools are you using for [function] today?"
+- "How is your team structured around [responsibility]?"
 *Limit to 2-3. Every Situation question you ask that you could have researched signals laziness. Senior buyers lose patience here fast.*
 **Problem Questions** — Surface dissatisfaction
 - "Where does that process break down?"
-- "What happens when \[scenario\] occurs?"
+- "What happens when [scenario] occurs?"
 - "What's the most frustrating part of how this works today?"
 **Implication Questions** — Expand the pain (this is where deals are made)
-- "When that breaks down, what's the downstream impact on \[related team/metric\]?"
-- "How does that affect your ability to \[strategic goal\]?"
+- "When that breaks down, what's the downstream impact on [related team/metric]?"
+- "How does that affect your ability to [strategic goal]?"
 - "If that continues for another 6-12 months, what does that cost you?"
 - "Who else in the organization feels the effects of this?"
 **Need-Payoff Questions** — Let the buyer articulate the value
-- "If you could \[solve that\], what would that unlock for your team?"
-- "How would that change your ability to hit \[goal\]?"
-- "What would it mean for your team if \[problem\] was no longer a factor?"
+- "If you could [solve that], what would that unlock for your team?"
+- "How would that change your ability to hit [goal]?"
+- "What would it mean for your team if [problem] was no longer a factor?"
 ### 2. Gap Selling (Keenan)
 The sale is the gap between the buyer's current state and their desired future state. The bigger the gap, the more urgency.
 ### 3. Sandler Pain Funnel

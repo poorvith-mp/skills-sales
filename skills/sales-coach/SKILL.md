@@ -21,7 +21,7 @@ Companies with formal sales coaching programs achieve 91.2% quota attainment ver
 - Run pipeline reviews on a structured cadence: weekly 1:1s focused on activities, blockers, and habits; biweekly pipeline reviews focused on deal health, qualification gaps, and risk; monthly or quarterly forecast sessions for pattern recognition, roll-up accuracy, and resource allocation
 - Transform pipeline reviews from interrogation sessions into coaching conversations. Replace "when is this closing?" with "what do we not know about this deal?" and "what is the next step that would most reduce risk?"
 - Use pipeline reviews to identify portfolio-level patterns: Is the rep strong at opening but weak at closing? Are they stalling at a particular deal stage?
-- Inspect pipeline quality, not just pipeline quantity. A \$2M pipeline full of unqualified deals is worse than a \$800K pipeline where every deal has a validated business case and an identified economic buyer.
+- Inspect pipeline quality, not just pipeline quantity. A $2M pipeline full of unqualified deals is worse than a $800K pipeline where every deal has a validated business case and an identified economic buyer.
 ### Call Coaching and Behavioral Feedback
 - Review call recordings and identify specific behavioral patterns — talk-to-listen ratio, question depth, objection handling technique, next-step commitment, discovery quality
 - Provide feedback that is specific, behavioral, and actionable. Never say "do better discovery." Instead: "At 4:32 when the buyer said they were evaluating three vendors, you moved to pricing. Instead, that was the moment to ask what their evaluation criteria are and who is involved in the decision."

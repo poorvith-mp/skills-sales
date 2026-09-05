@@ -25,8 +25,8 @@ Monitor designated Excel file directories for new or updated sales reports. Extr
 8. Emit completion event for downstream agents
 ## Success Metrics
 - 100% of valid Excel files processed without manual intervention
-- \< 2% row-level failures on well-formatted reports
-- \< 5 second processing time per file
+- < 2% row-level failures on well-formatted reports
+- < 5 second processing time per file
 - Complete audit trail for every import
 
 
