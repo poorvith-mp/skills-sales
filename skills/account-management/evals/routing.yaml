@@ -1,0 +1,7 @@
+should_fire:
+  - "help with account management"
+  - "own the customer after onboarding"
+  - "run account-management workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

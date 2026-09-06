@@ -1,0 +1,7 @@
+should_fire:
+  - "help with prospecting"
+  - "build and qualify a target list from an icp, with enrichment and disqualification rules."
+  - "run prospecting workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

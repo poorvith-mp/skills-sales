@@ -1,0 +1,7 @@
+should_fire:
+  - "help with pipeline health"
+  - "diagnose deal velocity, stage conversion, forecast accuracy and crm hygiene."
+  - "run pipeline-health workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

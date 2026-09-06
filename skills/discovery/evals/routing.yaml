@@ -1,0 +1,7 @@
+should_fire:
+  - "help with discovery"
+  - "structure the discovery call"
+  - "run discovery workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

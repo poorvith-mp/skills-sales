@@ -1,0 +1,7 @@
+should_fire:
+  - "help with sales coaching"
+  - "coach reps through call reviews, pipeline reviews, deal strategy and forecast discipline."
+  - "run sales-coaching workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

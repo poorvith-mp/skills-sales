@@ -1,0 +1,7 @@
+should_fire:
+  - "help with cold outreach"
+  - "write cold email and dm sequences that get replies, including domain warmup and deliverability."
+  - "run cold-outreach workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

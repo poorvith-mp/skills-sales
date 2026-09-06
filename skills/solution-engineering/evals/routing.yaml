@@ -1,0 +1,7 @@
+should_fire:
+  - "help with solution engineering"
+  - "do the pre-sales technical work"
+  - "run solution-engineering workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

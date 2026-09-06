@@ -1,0 +1,7 @@
+should_fire:
+  - "help with proposals"
+  - "turn an rfp or opportunity into a win narrative with scope, pricing, timeline, win themes and proof."
+  - "run proposals workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

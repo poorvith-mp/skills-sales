@@ -1,0 +1,7 @@
+should_fire:
+  - "help with win loss analysis"
+  - "interview won and lost deals, find the pattern, and feed it back to product, pricing and marketing."
+  - "run win-loss-analysis workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

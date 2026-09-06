@@ -1,0 +1,7 @@
+should_fire:
+  - "help with support replies"
+  - "write support responses and handle escalations across email, chat and social, including service recovery."
+  - "run support-replies workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

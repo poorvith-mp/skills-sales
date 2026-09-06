@@ -1,0 +1,7 @@
+should_fire:
+  - "help with client onboarding"
+  - "set up a new engagement"
+  - "run client-onboarding workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

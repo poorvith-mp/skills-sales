@@ -1,0 +1,7 @@
+should_fire:
+  - "help with renewals"
+  - "plan the renewal"
+  - "run renewals workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

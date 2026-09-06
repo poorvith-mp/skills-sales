@@ -1,0 +1,7 @@
+should_fire:
+  - "help with freelance bidding"
+  - "build marketplace positioning and write job-specific proposals that mirror the client's stated pain with targeted proof."
+  - "run freelance-bidding workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry
