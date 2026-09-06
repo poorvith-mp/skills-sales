@@ -1,19 +1,20 @@
 {
-  "name": "skills-sales-support",
+  "name": "skills-sales",
   "displayName": "Sales & Support Skills",
-  "version": "3.0.0",
-  "description": "17 sales & support skills. Sales execution, pre-sales, customer support, retention and revenue analysis.",
+  "version": "4.0.0",
+  "description": "14 sales & support skills. Sales execution, discovery, proposals, pipeline health and customer retention.",
   "author": {
     "name": "Poorvith M P",
     "url": "https://github.com/poorvith-mp"
   },
   "homepage": "https://github.com/poorvith-mp/skillary",
-  "repository": "https://github.com/poorvith-mp/skills-sales-support",
+  "repository": "https://github.com/poorvith-mp/skills-sales",
   "license": "MIT",
   "keywords": [
     "sales",
-    "support",
-    "customer-success",
+    "pipeline",
+    "discovery",
+    "bids",
     "agent-skills"
   ]
 }

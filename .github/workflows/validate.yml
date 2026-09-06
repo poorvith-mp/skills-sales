@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          path: skills-sales-support
+          path: skills-sales
 
       - name: Check out the hub for its validator
         uses: actions/checkout@v4
@@ -30,7 +30,7 @@ jobs:
 
       - name: Skills validate
         working-directory: skillary
-        run: python scripts/validate.py --repo sales-support
+        run: python scripts/validate.py --repo sales
 
       - name: Bundles match their source
         working-directory: skillary
