@@ -5,92 +5,58 @@ description: >-
   Turn an RFP or opportunity into a win narrative with scope, pricing, timeline, win themes and
   proof. Use when writing formal sales proposals, Statements of Work, or executive pitches.
 ---
+
 # Proposals
 
-You are a freelance and agency proposal expert. When given a project brief, write a professional, persuasive client proposal that wins business and sets clear expectations.
-## Process
-1. Analyze the project brief and client needs
-2. Structure the proposal for maximum impact
-3. Write compelling value proposition
-4. Detail scope, timeline, and pricing clearly
-5. Include terms, next steps, and call to action
-## Output Format
-## Client Proposal: [Project Name]
-### Prepared for: [Client Name, Company]
-### Prepared by: [Your Name/Company]
-### Date: [Date]
----
-### Executive Summary
-[2-3 paragraphs summarizing the project, your understanding of their needs, and why you're the right partner]
-### Our Understanding of Your Needs
-- [Need 1]
-- [Need 2]
-- [Need 3]
-### Proposed Solution
-[Detailed description of how you'll address their needs]
-### Scope of Work
-#### Phase 1: [Name]
-- [Deliverable 1]
-- [Deliverable 2]
-**Timeline:** [X weeks]
-#### Phase 2: [Name]
-- [Deliverable 1]
-- [Deliverable 2]
-**Timeline:** [X weeks]
-### Investment
-<table header-row="true">
-<tr>
-<td>Item</td>
-<td>Cost</td>
-</tr>
-<tr>
-<td>Phase 1</td>
-<td>$X</td>
-</tr>
-<tr>
-<td>Phase 2</td>
-<td>$X</td>
-</tr>
-<tr>
-<td>**Total**</td>
-<td>**$X**</td>
-</tr>
-</table>
-### Why Work With Us
-- [Differentiator 1]
-- [Differentiator 2]
-- [Social proof / past results]
-### Next Steps
-1. Review and discuss proposal
-2. Sign agreement
-3. Kickoff meeting within [X] days
-### Terms
-- Payment schedule
-- Revision policy
-- Cancellation terms
-## Proposal Psychology
-Clients don't read proposals top-to-bottom. They skim. Design accordingly:
-- **Executive summary first**: Busy clients read this and skip the rest if it's good
-- **Restate their problem**: Shows you listened, distinguishes you from template-users
-- **Outcome-focused scope**: "You'll have a live site with X, Y, Z" not "I will perform 120 hours of..."
-- **Pricing last**: Build value throughout, then name the price
-## Closing the Proposal
-Always end with urgency and clarity: "To secure this timeline, I need the signed agreement by [date]. Reply to this email to schedule a call or sign below to proceed."
+A winning proposal is not a capabilities brochure; it is an executive business case. High-conversion proposals lead with the client's quantifiable problem, establish 2–3 distinct win themes, define rigid Statement of Work (SOW) boundaries, and back every capability claim with verified proof.
 
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## 1. The Win Narrative Architecture
 
-## Verification & Quality Checklist
+Structure formal proposals and RFP responses into four distinct decision layers:
 
-- [ ] Every factual claim and statistic traced to a citable source.
-- [ ] Reading level and terminology matched to the stated audience.
-- [ ] Length and formatting fit the destination channel's limits.
-- [ ] One clear call to action, placed where the reader will still be reading.
+### A. Executive Pitch & Problem Statement
+- **Quantified Current State**: Document the financial or operational cost of the client's current bottleneck (e.g. "manual reconciliation consumes 35 hours/week, introducing a 4.2% error rate across $12M in transactions").
+- **Target State & Business Outcomes**: State the measurable impact delivered upon completion (e.g. "automated ledger synchronization reducing error rate to <0.1% and saving $180,000 annually").
+- **Win Themes**: 2–3 strategic pillars that distinguish your bid (e.g. Speed-to-value within 30 days; Proven SOC 2 Type II compliance; Zero operational downtime).
 
-## Anti-Patterns & Constraints
+### B. Statement of Work (SOW) & Milestone Deliverables
+Break implementation into discrete, inspectable milestone phases:
+- **Phase 1: Discovery & Technical Scoping** (Weeks 1–2): Architecture blueprint, API audit, migration matrix.
+- **Phase 2: Core Engineering & Integration** (Weeks 3–6): Bi-directional synchronization pipelines, webhook handlers, role-based access.
+- **Phase 3: Validation, Staging & User Acceptance Testing (UAT)** (Weeks 7–8): End-to-end integration tests, load tests, compliance audit sign-off.
+- **Phase 4: Production Rollout & Knowledge Transfer** (Weeks 9–10): Blue/green deployment, runbook documentation, admin training sessions.
 
-- NEVER invent statistics, quotes, or sources.
-- NEVER present an unverified figure as sourced.
-- NEVER bury the central point below preamble the reader will not reach.
+### C. Scope Boundaries (In-Scope vs. Out-of-Scope)
+Explicitly document what is **NOT** included to prevent scope creep:
+- *Out-of-scope*: Data migration of unformatted records prior to FY2024; customization of third-party legacy ERP endpoints without published REST APIs.
+
+### D. Investment & Milestone Schedule
+
+| Milestone / Deliverable | Timeline | Investment | Acceptance Criteria |
+|---|---|---|---|
+| Milestone 1: Blueprint & Architecture | Weeks 1–2 | $15,000 | Signed architectural decision record and schema design |
+| Milestone 2: Core Pipeline & Integration | Weeks 3–6 | $35,000 | Staging pipeline processing 10,000 test transactions |
+| Milestone 3: UAT & Production Release | Weeks 7–9 | $20,000 | Zero critical defects in UAT and successful cutover |
+| **Total Engagement** | **9 Weeks** | **$70,000** | **Final project sign-off and SLA activation** |
+
+## 2. Risk Reversal & Proof Points
+- **Relevant Case Studies**: Include 1–2 vignettes of comparable engagements with before/after metrics.
+- **Service Level Agreements & Warranties**: 30-day bug-fix warranty on all delivered code post-cutover.
+- **Decision Timeline**: Include explicit offer validity date (e.g. "Pricing and milestone schedule guaranteed through October 31, 2026").
+
+## Critical Rules
+1. Never submit pricing before explicitly defining acceptance criteria for every deliverable.
+2. Every proposal must state what happens when change requests occur (e.g. "additional requirements billed at $X/hour or scoped as a Phase 2 addendum").
+3. Avoid generic fluff ("we are passionate about customer success"); cite verified uptime, certifications, or delivery stats instead.
+
+## Verification Checklist
+- [ ] Client problem quantified with specific baseline and target metrics.
+- [ ] 2–3 explicit win themes woven throughout the narrative.
+- [ ] Statement of Work contains clear in-scope and out-of-scope boundaries.
+- [ ] Investment table ties fee payments directly to verifiable milestones, not arbitrary dates.
+- [ ] Acceptance criteria, warranty period, and change-order procedures documented.
+
+## Anti-Patterns
+- NEVER provide an open-ended "Time & Materials" estimate without an agreed maximum cap and approval trigger.
+- NEVER bury pricing at the end without having established measurable ROI in the Executive Summary.
+- NEVER leave third-party dependencies (client API access, infrastructure provisioning) unassigned.

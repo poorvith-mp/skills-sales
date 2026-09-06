@@ -5,63 +5,82 @@ description: >-
   Write cold email and DM sequences that get replies, including domain warmup and deliverability.
   Use when drafting personalized cold emails, LinkedIn DMs, or follow-up cadences.
 ---
+
 # Cold Outreach
 
-You are an expert B2B cold email copywriter. When given prospect information and an offer, write personalized, high-converting cold email sequences that feel genuine, not spammy.
-## Process
-1. Analyze the prospect's role, company, and pain points
-2. Research common triggers for personalization
-3. Write a compelling subject line
-4. Craft the email body using AIDA framework
-5. Create a 3-5 email sequence with follow-ups
-## Output Format
-## Cold Email Sequence: [Prospect Name] @ [Company]
-### Email 1: Initial Outreach
-**Subject:** [Personalized, curiosity-inducing, under 50 chars]
-**Body:**
-Hi [Name],
-[Personalized opener referencing their company/role/recent news]
-[Problem statement — show you understand their challenge]
-[Solution — briefly explain how you help]
-[Soft CTA — low-commitment ask]
-Best,
-[Your name]
-### Email 2: Follow-up (Day 3)
-[Value-add follow-up]
-### Email 3: Case Study (Day 7)
-[Social proof follow-up]
-### Email 4: Breakup (Day 14)
-[Final polite follow-up]
-### Personalization Tips
-- Reference specific company events
-- Mention mutual connections
-- Use their recent content/posts
-## Cold Email Framework (PPCTA)
-**P — Personalization**: Reference something specific (recent post, company news, their role)
-**P — Problem**: Name a problem people in their position commonly face
-**C — Credibility**: One sentence showing you've solved this before
-**T — Tease**: Hint at the solution without over-explaining
-**A — Action**: One specific, low-commitment ask (15-min call, quick question)
-## The Follow-Up Sequence
-Email 1 (Day 1): Initial personalized pitch
-Email 2 (Day 4): Add value — share a resource or case study
-Email 3 (Day 9): Different angle — ask a question instead of pitching
-Email 4 (Day 14): The "break-up" — close the loop politely
+Cold outreach succeeds on technical deliverability and acute relevance, not brute volume. Spray-and-pray sequences destroy domain reputation and land in spam folders. Modern outbound requires isolated secondary domain infrastructure, strict SPF/DKIM/DMARC authentication, automated warmup ramps, and tight multi-channel cadences across Email and LinkedIn.
 
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## 1. Domain Infrastructure & Deliverability Protocol
 
-## Verification & Quality Checklist
+Protect your primary company domain by building dedicated outbound infrastructure:
 
-- [ ] Success metric and its current baseline defined before launch, not after.
-- [ ] Target segment named specifically enough to exclude someone.
-- [ ] Channel-specific limits respected (character counts, aspect ratios, policy rules).
-- [ ] Compliance checked for the channel (CAN-SPAM, GDPR, platform ad policy).
+### A. Secondary Domain Architecture
+- **Never send cold outreach from your primary apex domain** (e.g. `company.com`). If an outreach campaign gets flagged, primary corporate email deliverability is compromised.
+- Purchase 2–3 lookalike secondary domains (e.g. `trycompany.com`, `usecompany.com`, `companyhq.com`) configured with Google Workspace or Microsoft 365 mailboxes.
+- Set up 301 redirects from secondary domain roots to your primary website homepage.
 
-## Anti-Patterns & Constraints
+### B. DNS Authentication Records (Mandatory)
+Before sending a single email, configure four DNS records on every sending domain:
+1. **SPF (Sender Policy Framework)**:
+   ```txt
+   v=spf1 include:_spf.google.com ~all
+   ```
+2. **DKIM (DomainKeys Identified Mail)**: Generate a 2048-bit cryptographic key in Google Workspace / M365 admin and publish the TXT record at `google._domainkey.domain.com`.
+3. **DMARC (Domain-based Message Authentication)**:
+   ```txt
+   v=DMARC1; p=quarantine; rua=mailto:dmarc-reports@trycompany.com; pct=100; sp=quarantine
+   ```
+4. **Custom Tracking Domain (CNAME)**: When using tracking pixels or click tracking, use a dedicated subdomain (`track.trycompany.com`) with an SSL cert. *Best practice*: Disable open/click tracking entirely for cold emails to improve inbox placement.
 
-- NEVER launch without a stated kill criterion and review date.
-- NEVER claim a result without naming the attribution window and method.
-- NEVER make a comparative or outcome claim the product cannot substantiate.
+### C. Automated Domain Warmup Schedule
+Warm up mailboxes for 14–21 days using automated peer networks (Smartlead, Instantly) before sending cold campaigns:
+- **Week 1 (Days 1–7)**: 5–10 automated warmup emails/day. Zero cold prospect emails.
+- **Week 2 (Days 8–14)**: 15–20 warmup emails/day. Start cold outbound at 5 emails/day/mailbox.
+- **Week 3+ (Production)**: 25–35 cold emails/day + 15 warmup emails/day per mailbox.
+- **Hard Ceiling**: Maximum 40 cold emails per mailbox per day. To send 200 emails/day, use 5 mailboxes distributed across 2 domains.
+
+## 2. Multi-Channel Cadence Architecture (Email + LinkedIn)
+
+Structure outreach across 4–5 touches over a 16-day window:
+
+```
+Day 1:  [Email 1] Personal observation + problem statement + low-friction ask
+Day 2:  [LinkedIn] Profile view + connection request (blank note or 1-line observation)
+Day 5:  [Email 2] Quick bump with 1-sentence customer proof or metric
+Day 8:  [LinkedIn DM] Short value drop if connection accepted (no calendar link)
+Day 12: [Email 3] Frictionless resource or perspective shift
+Day 16: [Email 4] Polite breakup closing the loop
+```
+
+### High-Converting Email Frameworks
+- **Subject Lines**: 2–4 words, lowercase, non-promotional: `quick question`, `[Company] <> [Prospect Company]`, `re: [Specific Trigger]`.
+- **Word Count**: Strictly between 50 and 90 words. Long emails trigger cognitive fatigue on mobile screens.
+- **The Low-Friction Call to Action (CTA)**:
+  - *Weak*: "Can we schedule a 30-minute demo on Tuesday at 2pm? Here's my Calendly link."
+  - *Strong*: "Open to checking out the 2-minute breakdown?" or "Worth exploring, or is this not on your radar for Q3?"
+
+### LinkedIn DM Rules
+- Keep messages under 250 characters.
+- Anchor to a public signal: comment on their recent post, hiring announcement, or podcast appearance.
+- Never pitch or drop a scheduling link in the connection request note.
+
+## 3. List Hygiene & Bounce Prevention
+- Run every prospect email through real-time verification tools (NeverBounce, ZeroBounce) before loading into cadences.
+- Maintain a bounce rate strictly `< 2.0%`. Bounces above 3% trigger spam filtering across Google and Microsoft networks.
+
+## Critical Rules
+1. Never send cold outreach from the primary domain used for corporate operations.
+2. Every prospect email list must be validated immediately prior to sending; never send to stale or unverified lists.
+3. Keep cold emails under 90 words with a single, clear question rather than multiple demands.
+
+## Verification Checklist
+- [ ] Secondary domains configured with valid SPF, DKIM, and DMARC records.
+- [ ] Mailboxes warmed up for a minimum of 14 days with >50% warmup engagement.
+- [ ] Prospect list verified with <2% predicted bounce rate.
+- [ ] Email copy contains zero spam trigger phrases ("free", "guarantee", "act now", "urgent").
+- [ ] CTA is conversational and asks for interest rather than booking calendar time directly.
+
+## Anti-Patterns
+- NEVER exceed 40 cold emails per mailbox per day; distribute volume across multiple inboxes.
+- NEVER include calendar links (Calendly/HubSpot) in initial outreach emails; links degrade deliverability.
+- NEVER send generic template blasts that lack custom, role-specific personalization triggers.
