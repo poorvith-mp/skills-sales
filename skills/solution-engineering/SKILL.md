@@ -1,7 +1,9 @@
 ---
 name: solution-engineering
+group: Pipeline
 description: >-
-  Do the pre-sales technical work: demo engineering, POC scoping and competitive battlecards.
+  Do the pre-sales technical work: demo engineering, POC scoping and competitive battlecards. Use
+  when delivering technical product demos, scoping POCs, or handling RFIs.
 ---
 # Solution Engineering
 

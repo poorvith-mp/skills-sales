@@ -1,7 +1,16 @@
 should_fire:
-  - "help with account management"
-  - "own the customer after onboarding"
-  - "run account-management workflow"
+  - 'prepare an impactful Executive Business Review (EBR/QBR) deck for an enterprise client'
+  - 'identify expansion and upsell opportunities across new departments within an account'
+  - 'build multi-threaded relationships with secondary champions to avoid single-point-of-contact risk'
+  - 'track customer health scores, software adoption rates, and executive stakeholder changes'
+  - 'structure an account plan outlining annual goals and value realization for a major client'
+  - 'navigate an account transition when our primary champion leaves the client company'
+  - 'handle an escalated customer relationship issue after a major service outage'
+  - 'turn a satisfied enterprise client into a public reference and case study participant'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'negotiate contract renewal pricing and multi-year extensions'
+    expect: 'renewals'
+  - prompt: 'guide a newly signed client through technical onboarding and implementation'
+    expect: 'client-onboarding'
+  - prompt: 'manage technical customer support tickets and bug reports'
+    expect: 'support-replies'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with public sector bids"
-  - "handle government digital presales"
-  - "run public-sector-bids workflow"
+  - 'respond to a public government RFP tender with strict compliance matrix mapping'
+  - 'structure a proposal according to Federal Acquisition Regulation (FAR) guidelines'
+  - 'ensure every mandatory specification in a municipal government tender is explicitly addressed'
+  - 'draft past performance references and capability narratives for a defense agency bid'
+  - 'calculate fully burdened labor rates and cost accounting breakdown for a government contract'
+  - 'navigate security clearance requirements and subcontractor teaming agreements'
+  - 'review a government tender submission to eliminate disqualifying technical non-conformances'
+  - 'write the technical approach volume for a state government healthcare software contract'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write freelance proposals on Upwork or freelance marketplaces'
+    expect: 'freelance-bidding'
+  - prompt: 'draft commercial enterprise sales proposals for private companies'
+    expect: 'proposals'
+  - prompt: 'author research grant proposals for scientific or academic funding'
+    expect: 'grant-writing'

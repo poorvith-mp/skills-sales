@@ -1,7 +1,9 @@
 ---
 name: renewals
+group: Post-sale
 description: >-
-  Plan the renewal: timeline-based outreach, expansion opportunities and QBR preparation.
+  Plan the renewal: timeline-based outreach, expansion opportunities and QBR preparation. Use when
+  negotiating contract renewals, multi-year expansions, or churn defense.
 ---
 # Renewals
 

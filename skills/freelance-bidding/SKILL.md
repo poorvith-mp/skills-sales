@@ -1,7 +1,9 @@
 ---
 name: freelance-bidding
+group: Bidding
 description: >-
-  Build marketplace positioning and write job-specific proposals that mirror the client's stated pain with targeted proof.
+  Build marketplace positioning and write job-specific proposals that mirror the client's stated
+  pain with targeted proof. Use when writing winning Upwork proposals, freelance pitches, or bids.
 ---
 # Freelance Bidding
 

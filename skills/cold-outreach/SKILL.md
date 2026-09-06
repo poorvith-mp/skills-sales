@@ -1,7 +1,9 @@
 ---
 name: cold-outreach
+group: Pipeline
 description: >-
   Write cold email and DM sequences that get replies, including domain warmup and deliverability.
+  Use when drafting personalized cold emails, LinkedIn DMs, or follow-up cadences.
 ---
 # Cold Outreach
 

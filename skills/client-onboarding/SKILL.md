@@ -1,7 +1,9 @@
 ---
 name: client-onboarding
+group: Post-sale
 description: >-
-  Set up a new engagement: intake, access, environments and communication cadence.
+  Set up a new engagement: intake, access, environments and communication cadence. Use when
+  managing post-sale client kickoff, implementation, or training.
 ---
 # Client Onboarding
 

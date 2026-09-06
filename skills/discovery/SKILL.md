@@ -1,7 +1,9 @@
 ---
 name: discovery
+group: Pipeline
 description: >-
-  Structure the discovery call: question design, current-state mapping, gap quantification and a close that earns the next meeting.
+  Structure discovery calls: question design, current-state mapping, and gap quantification. Use
+  when running sales discovery calls or BANT qualification.
 ---
 # Discovery
 

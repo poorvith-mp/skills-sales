@@ -1,7 +1,9 @@
 ---
 name: account-management
+group: Post-sale
 description: >-
   Own the customer after onboarding: adoption tracking, health reviews, expansion plays and QBRs.
+  Use when managing enterprise accounts, quarterly reviews, or expansion.
 ---
 # Account Management
 

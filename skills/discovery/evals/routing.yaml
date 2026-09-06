@@ -1,7 +1,16 @@
 should_fire:
-  - "help with discovery"
-  - "structure the discovery call"
-  - "run discovery workflow"
+  - 'structure a 30-minute sales discovery call to uncover a prospect''s true business pain'
+  - 'qualify an enterprise prospect using the MEDDIC sales qualification framework'
+  - 'what open-ended diagnostic questions should an account executive ask during discovery'
+  - 'uncover the economic buyer, decision criteria, and timeline on a sales call'
+  - 'diagnose why an inbound lead is evaluating software alternatives right now'
+  - 'handle early price pushback during a discovery conversation without giving discounts'
+  - 'map the prospect''s current-state workflow and quantify the financial cost of inaction'
+  - 'earn the next meeting by summarizing findings and establishing clear mutually agreed next steps'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'conduct customer research interviews to understand market sentiment'
+    expect: 'customer-research'
+  - prompt: 'demonstrate software technical architecture and proof-of-concept integrations'
+    expect: 'solution-engineering'
+  - prompt: 'negotiate final commercial terms and contract pricing'
+    expect: 'negotiation'

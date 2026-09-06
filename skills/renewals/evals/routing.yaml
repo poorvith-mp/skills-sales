@@ -1,7 +1,16 @@
 should_fire:
-  - "help with renewals"
-  - "plan the renewal"
-  - "run renewals workflow"
+  - 'manage our contract renewal pipeline starting 90 days before agreement expiration'
+  - 'how to negotiate a 10% annual price increase during an enterprise contract renewal'
+  - 'defend against contract cancellation when a client claims budget cuts from leadership'
+  - 'structure a multi-year contract renewal offering volume discounts in exchange for commitment'
+  - 'handle procurement demands for price reductions during an annual renewal cycle'
+  - 'identify at-risk renewal accounts early using declining user logins and license usage'
+  - 'negotiate license true-ups when a client exceeds their agreed seat or volume quotas'
+  - 'draft a renewal agreement addendum extending service terms and updating SLAs'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'analyze self-serve SaaS user churn and retention cohort curves'
+    expect: 'retention'
+  - prompt: 'manage ongoing day-to-day enterprise relationship health and QBRs'
+    expect: 'account-management'
+  - prompt: 'draft initial master service agreements for new customers'
+    expect: 'contract-drafting'

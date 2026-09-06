@@ -1,7 +1,16 @@
 should_fire:
-  - "help with pipeline health"
-  - "diagnose deal velocity, stage conversion, forecast accuracy and crm hygiene."
-  - "run pipeline-health workflow"
+  - 'audit our sales pipeline to identify stalled deals that have lingered for over 60 days'
+  - 'calculate deal velocity, average sales cycle length, and stage-by-stage conversion rates'
+  - 'clean up pipeline hygiene: close out zombie opportunities and update realistic close dates'
+  - 'forecast quarterly closed-won revenue based on weighted pipeline probabilities'
+  - 'diagnose why our mid-funnel conversion rate dropped by 15% this quarter'
+  - 'establish clear exit criteria that must be satisfied before moving a deal to the next stage'
+  - 'identify reps who are sandbagging or carrying overly optimistic forecast numbers'
+  - 'run a weekly pipeline review meeting that focuses on unblocking late-stage deals'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'configure CRM custom fields, pipeline stages, and automated lead routing'
+    expect: 'revops'
+  - prompt: 'conduct post-mortem interviews on lost deals to understand why we lost'
+    expect: 'win-loss-analysis'
+  - prompt: 'coach sales reps on call execution and objection handling'
+    expect: 'sales-coaching'

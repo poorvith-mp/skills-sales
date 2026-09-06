@@ -1,7 +1,16 @@
 should_fire:
-  - "help with cold outreach"
-  - "write cold email and dm sequences that get replies, including domain warmup and deliverability."
-  - "run cold-outreach workflow"
+  - 'write a 3-step personalized cold email sequence for B2B engineering leaders'
+  - 'craft a compelling 3-sentence cold outreach email that gets replies without sounding spammy'
+  - 'draft high-converting LinkedIn direct message templates for connecting with prospective buyers'
+  - 'write follow-up emails for cold outreach prospects who didn''t respond to the first email'
+  - 'personalize cold outreach emails at scale using recent company news and podcast mentions'
+  - 'improve cold email deliverability: domain warm-up, plain-text focus, and zero spam triggers'
+  - 'write a breakup email that gracefully closes out an unresponsive cold outreach thread'
+  - 'craft a conversational, peer-to-peer cold pitch focused on a specific unsolved pain point'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build the list of target companies and lead contacts to reach out to'
+    expect: 'prospecting'
+  - prompt: 'write automated onboarding drip emails for users who already signed up'
+    expect: 'lifecycle-messaging'
+  - prompt: 'lead a live discovery conversation after a prospect replies to an email'
+    expect: 'discovery'

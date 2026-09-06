@@ -1,7 +1,16 @@
 should_fire:
-  - "help with sales coaching"
-  - "coach reps through call reviews, pipeline reviews, deal strategy and forecast discipline."
-  - "run sales-coaching workflow"
+  - 'coach a sales rep on handling common objections: ''your price is too high'' or ''we use competitor X'''
+  - 'review a recorded sales call transcript and provide actionable feedback on discovery technique'
+  - 'help an account executive improve their talk-to-listen ratio on sales calls'
+  - 'run roleplay practice scenarios with sales reps to sharpen their pitch delivery'
+  - 'coach reps on asking deeper second-level diagnostic questions rather than accepting surface answers'
+  - 'teach reps how to gain control of sales conversations and set firm agendas'
+  - 'structure a sales onboarding boot camp to ramp new account executives to quota in 60 days'
+  - 'help a rep overcome fear of asking for the business and closing commitment'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'create customer-facing sales one-pagers and battlecards'
+    expect: 'sales-enablement'
+  - prompt: 'audit sales pipeline hygiene, stage velocity, and forecasts'
+    expect: 'pipeline-health'
+  - prompt: 'lead a live discovery conversation with an actual customer prospect'
+    expect: 'discovery'

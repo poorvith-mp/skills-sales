@@ -1,7 +1,16 @@
 should_fire:
-  - "help with win loss analysis"
-  - "interview won and lost deals, find the pattern, and feed it back to product, pricing and marketing."
-  - "run win-loss-analysis workflow"
+  - 'conduct a structured win-loss interview with a prospect who chose our primary competitor'
+  - 'analyze the primary reasons why we lost 20 late-stage enterprise deals this year'
+  - 'interview recently won customers to find what single factor tipped their purchase decision'
+  - 'identify recurring feature gaps that sales reps cite as deal-breakers on lost opportunities'
+  - 'determine whether we are losing deals primarily on price, product parity, or trust'
+  - 'synthesize quarterly win-loss findings into actionable product and positioning feedback'
+  - 'uncover internal political dynamics that caused a champion to lose executive buy-in'
+  - 'track competitor win rates and identify specific markets where competitors dominate'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit active pipeline stage velocity and deal slippage'
+    expect: 'pipeline-health'
+  - prompt: 'conduct ongoing customer research interviews with existing active users'
+    expect: 'customer-research'
+  - prompt: 'coach sales reps on improving their discovery and objection handling calls'
+    expect: 'sales-coaching'

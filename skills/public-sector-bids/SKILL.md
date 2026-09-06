@@ -1,7 +1,10 @@
 ---
 name: public-sector-bids
+group: Bidding
 description: >-
-  Handle government digital presales: policy interpretation, solution design and bid documentation.
+  Handle government digital presales: policy interpretation, solution design and bid
+  documentation. Use when responding to government RFPs, tenders, compliance matrices, or FAR
+  rules.
 ---
 # Public Sector Bids
 

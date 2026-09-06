@@ -1,7 +1,16 @@
 should_fire:
-  - "help with freelance bidding"
-  - "build marketplace positioning and write job-specific proposals that mirror the client's stated pain with targeted proof."
-  - "run freelance-bidding workflow"
+  - 'write a high-converting Upwork proposal that wins clients over dozens of competing bids'
+  - 'craft an opening hook for a freelance bid that proves I read the client''s job post thoroughly'
+  - 'how should a freelance developer structure fixed-price project milestones and deliverables'
+  - 'pitch my consulting services for a freelance project without competing in a race to the bottom on price'
+  - 'write a winning bid for a freelance full-stack MVP build with realistic scope boundaries'
+  - 'ask insightful technical clarifying questions in a freelance proposal to stand out'
+  - 'highlight relevant portfolio examples and past client testimonials in a freelance pitch'
+  - 'follow up with a freelance client who viewed my proposal but hasn''t replied'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'bid on formal public government tenders and municipal RFP contracts'
+    expect: 'public-sector-bids'
+  - prompt: 'draft full commercial enterprise Statements of Work (SOWs)'
+    expect: 'proposals'
+  - prompt: 'negotiate enterprise software contracts with procurement teams'
+    expect: 'negotiation'

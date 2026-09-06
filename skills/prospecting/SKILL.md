@@ -1,7 +1,9 @@
 ---
 name: prospecting
+group: Pipeline
 description: >-
-  Build and qualify a target list from an ICP, with enrichment and disqualification rules.
+  Build and qualify a target list from an ICP, with enrichment and disqualification rules. Use
+  when finding high-intent B2B target accounts, leads, or list building.
 ---
 # Prospecting
 

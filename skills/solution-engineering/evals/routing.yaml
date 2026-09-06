@@ -1,7 +1,16 @@
 should_fire:
-  - "help with solution engineering"
-  - "do the pre-sales technical work"
-  - "run solution-engineering workflow"
+  - 'design a customized technical product demo that proves we solve the prospect''s specific pain'
+  - 'scope a 14-day Proof of Concept (POC) with clear, agreed-upon technical success criteria'
+  - 'answer difficult technical questions about our API architecture, security, and scalability'
+  - 'build a custom demo integration showing how our platform connects with the prospect''s stack'
+  - 'complete an enterprise Request for Information (RFI) technical vendor questionnaire'
+  - 'address enterprise security and data privacy concerns during a technical deep dive'
+  - 'conduct a technical bake-off against a competitor to prove superior performance'
+  - 'guide the prospect''s engineering team through their initial sandbox trial implementation'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'lead the initial business discovery and budget qualification conversation'
+    expect: 'discovery'
+  - prompt: 'draft a formal commercial sales proposal and pricing contract'
+    expect: 'proposals'
+  - prompt: 'implement full production code features in our core backend codebase'
+    expect: 'backend-build'

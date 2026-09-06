@@ -1,7 +1,16 @@
 should_fire:
-  - "help with prospecting"
-  - "build and qualify a target list from an icp, with enrichment and disqualification rules."
-  - "run prospecting workflow"
+  - 'build a targeted prospect list of 50 VP of Engineering leads at Series B SaaS companies'
+  - 'identify high-intent buying signals: recent funding, job postings, and tech stack changes'
+  - 'filter LinkedIn Sales Navigator searches to find decision-makers who fit our ICP'
+  - 'find verified email addresses and phone numbers for key prospects on our account list'
+  - 'develop account-based marketing (ABM) target account tiers for our sales reps'
+  - 'uncover companies searching for alternatives to our primary competitor'
+  - 'source qualified sales leads from GitHub repositories and open-source contributors'
+  - 'enrich our lead database with company headcount, funding data, and technographics'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write the cold outbound email sequence to send to these prospects'
+    expect: 'cold-outreach'
+  - prompt: 'lead a live 30-minute discovery and qualification sales call'
+    expect: 'discovery'
+  - prompt: 'design our marketing Ideal Customer Profile and value proposition'
+    expect: 'positioning'

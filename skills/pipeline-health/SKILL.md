@@ -1,7 +1,9 @@
 ---
 name: pipeline-health
+group: Pipeline
 description: >-
-  Diagnose deal velocity, stage conversion, forecast accuracy and CRM hygiene.
+  Diagnose deal velocity, stage conversion, forecast accuracy and CRM hygiene. Use when auditing
+  sales pipeline stages, deal slippage, or win-rate hygiene.
 ---
 # Pipeline Health
 

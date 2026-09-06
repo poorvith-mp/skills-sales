@@ -1,7 +1,9 @@
 ---
 name: proposals
+group: Pipeline
 description: >-
-  Turn an RFP or opportunity into a win narrative with scope, pricing, timeline, win themes and proof.
+  Turn an RFP or opportunity into a win narrative with scope, pricing, timeline, win themes and
+  proof. Use when writing formal sales proposals, Statements of Work, or executive pitches.
 ---
 # Proposals
 

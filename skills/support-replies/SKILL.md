@@ -1,7 +1,9 @@
 ---
 name: support-replies
+group: Post-sale
 description: >-
-  Write support responses and handle escalations across email, chat and social, including service recovery.
+  Write support responses and handle escalations across email, chat and social, including service
+  recovery. Use when drafting empathetic, accurate customer support replies or macros.
 ---
 # Support Replies
 

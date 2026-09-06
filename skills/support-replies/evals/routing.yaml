@@ -1,7 +1,16 @@
 should_fire:
-  - "help with support replies"
-  - "write support responses and handle escalations across email, chat and social, including service recovery."
-  - "run support-replies workflow"
+  - 'draft an empathetic, helpful support reply explaining a known service bug with a workaround'
+  - 'de-escalate an angry enterprise customer whose export failed right before a board meeting'
+  - 'write reusable customer support macros and canned responses for common questions'
+  - 'explain a complex technical billing discrepancy clearly without confusing jargon'
+  - 'politely decline an unreasonable customer feature request while keeping their goodwill'
+  - 'investigate and troubleshoot a user''s reported error using logs and screenshots'
+  - 'manage customer communication during a live service disruption with proactive updates'
+  - 'write clear step-by-step instructions helping a non-technical user reset their MFA token'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'diagnose and fix the underlying software code bug in the repository'
+    expect: 'debugging'
+  - prompt: 'manage overall enterprise account relationships and quarterly reviews'
+    expect: 'account-management'
+  - prompt: 'write automated onboarding drip email sequences'
+    expect: 'lifecycle-messaging'

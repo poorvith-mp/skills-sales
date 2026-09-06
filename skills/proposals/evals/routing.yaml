@@ -1,7 +1,16 @@
 should_fire:
-  - "help with proposals"
-  - "turn an rfp or opportunity into a win narrative with scope, pricing, timeline, win themes and proof."
-  - "run proposals workflow"
+  - 'write a compelling enterprise software sales proposal highlighting quantifiable ROI'
+  - 'draft a detailed Statement of Work (SOW) outlining project scope, deliverables, and timeline'
+  - 'structure a 3-tier pricing proposal: Good, Better, Best to encourage tier upgrades'
+  - 'summarize a prospect''s challenges and our proposed solution in an executive proposal brief'
+  - 'craft business case slides showing payback period and total cost of ownership savings'
+  - 'include clear terms, assumptions, and scope exclusions to prevent project creep in an SOW'
+  - 'design a visually polished proposal document that enterprise procurement can sign off on'
+  - 'revise a rejected sales proposal to address stakeholder budget constraints'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'draft formal legal contract terms, warranties, and indemnification clauses'
+    expect: 'contract-drafting'
+  - prompt: 'negotiate final deal concessions and discount terms with procurement'
+    expect: 'negotiation'
+  - prompt: 'bid on competitive public government tenders and procurement portals'
+    expect: 'public-sector-bids'

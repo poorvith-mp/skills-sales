@@ -1,7 +1,9 @@
 ---
 name: win-loss-analysis
+group: Pipeline
 description: >-
-  Interview won and lost deals, find the pattern, and feed it back to product, pricing and marketing.
+  Interview won and lost deals, find the pattern, and feed it back to product, pricing and
+  marketing. Use when conducting post-mortem interviews on lost deals or won customers.
 ---
 # Win Loss Analysis
 

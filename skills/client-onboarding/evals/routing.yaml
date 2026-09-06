@@ -1,7 +1,16 @@
 should_fire:
-  - "help with client onboarding"
-  - "set up a new engagement"
-  - "run client-onboarding workflow"
+  - 'lead a high-touch customer kickoff call for an enterprise software deployment'
+  - 'build an implementation milestone plan and joint success timeline with the client'
+  - 'guide a new client''s IT team through SSO configuration and user provisioning'
+  - 'track time-to-first-value (TTFV) to ensure clients experience quick wins within 30 days'
+  - 'manage customer expectations and prevent project scope creep during onboarding'
+  - 'conduct administrator and end-user training sessions for the client''s team'
+  - 'establish clear escalation paths and weekly status meetings during implementation'
+  - 'transition an onboarded customer smoothly from the implementation team to their ongoing account manager'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'optimize self-serve product user activation and empty states in-app'
+    expect: 'activation'
+  - prompt: 'manage ongoing quarterly business reviews and expansion accounts'
+    expect: 'account-management'
+  - prompt: 'respond to day-to-day technical customer support tickets'
+    expect: 'support-replies'
