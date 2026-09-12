@@ -1,5 +1,6 @@
 ---
 name: prospecting
+last_reviewed: 2026-09-06
 group: Pipeline
 description: >-
   Build and qualify a target list from an ICP, with enrichment and disqualification rules. Use

@@ -1,5 +1,6 @@
 ---
 name: cold-outreach
+last_reviewed: 2026-09-06
 group: Pipeline
 description: >-
   Write cold email and DM sequences that get replies, including domain warmup and deliverability.

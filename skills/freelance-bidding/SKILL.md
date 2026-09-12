@@ -1,5 +1,6 @@
 ---
 name: freelance-bidding
+last_reviewed: 2026-09-06
 group: Bidding
 description: >-
   Build marketplace positioning and write job-specific proposals that mirror the client's stated

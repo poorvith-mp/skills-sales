@@ -1,5 +1,6 @@
 ---
 name: proposals
+last_reviewed: 2026-09-06
 group: Pipeline
 description: >-
   Turn an RFP or opportunity into a win narrative with scope, pricing, timeline, win themes and

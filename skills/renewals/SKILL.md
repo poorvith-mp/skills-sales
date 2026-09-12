@@ -1,5 +1,6 @@
 ---
 name: renewals
+last_reviewed: 2026-09-06
 group: Post-sale
 description: >-
   Plan the renewal: timeline-based outreach, expansion opportunities and QBR preparation. Use when

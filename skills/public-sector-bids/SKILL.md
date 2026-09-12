@@ -1,5 +1,6 @@
 ---
 name: public-sector-bids
+last_reviewed: 2026-09-06
 group: Bidding
 description: >-
   Handle government digital presales: policy interpretation, solution design and bid

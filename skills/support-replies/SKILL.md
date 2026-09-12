@@ -1,5 +1,6 @@
 ---
 name: support-replies
+last_reviewed: 2026-09-06
 group: Post-sale
 description: >-
   Write support responses and handle escalations across email, chat and social, including service

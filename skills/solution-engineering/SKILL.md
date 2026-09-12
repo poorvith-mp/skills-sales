@@ -1,5 +1,6 @@
 ---
 name: solution-engineering
+last_reviewed: 2026-09-06
 group: Pipeline
 description: >-
   Do the pre-sales technical work: demo engineering, POC scoping and competitive battlecards. Use

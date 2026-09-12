@@ -1,5 +1,6 @@
 ---
 name: client-onboarding
+last_reviewed: 2026-09-06
 group: Post-sale
 description: >-
   Set up a new engagement: intake, access, environments and communication cadence. Use when

@@ -1,5 +1,6 @@
 ---
 name: win-loss-analysis
+last_reviewed: 2026-09-06
 group: Pipeline
 description: >-
   Interview won and lost deals, find the pattern, and feed it back to product, pricing and

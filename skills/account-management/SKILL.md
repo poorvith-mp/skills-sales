@@ -1,5 +1,6 @@
 ---
 name: account-management
+last_reviewed: 2026-09-06
 group: Post-sale
 description: >-
   Own the customer after onboarding: adoption tracking, health reviews, expansion plays and QBRs.

@@ -1,5 +1,6 @@
 ---
 name: sales-coaching
+last_reviewed: 2026-09-06
 group: Enablement
 description: >-
   Coach reps through call reviews, pipeline reviews, deal strategy and forecast discipline. Use

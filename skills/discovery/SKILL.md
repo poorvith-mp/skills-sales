@@ -1,5 +1,6 @@
 ---
 name: discovery
+last_reviewed: 2026-09-06
 group: Pipeline
 description: >-
   Structure discovery calls: question design, current-state mapping, and gap quantification. Use

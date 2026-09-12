@@ -1,5 +1,6 @@
 ---
 name: pipeline-health
+last_reviewed: 2026-09-06
 group: Pipeline
 description: Diagnose deal velocity, stage conversion, forecast accuracy and CRM hygiene. For marketing ops, see revops. Use when auditing sales pipeline stages, deal slippage, or win-rate hygiene.
 ---

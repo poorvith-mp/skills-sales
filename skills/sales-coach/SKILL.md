@@ -1,5 +1,6 @@
 ---
 name: sales-coach
+last_reviewed: 2026-09-06
 description: Moved to sales-coaching in skills-sales. Removed in v4.1.
 deprecated: true
 ---
