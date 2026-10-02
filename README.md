@@ -1,8 +1,8 @@
 # skills-sales
 
-Sales & Support skills collection for Claude Code, Cursor, Codex, Gemini CLI, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).
+Sales & Support skills collection for Claude Code, Gemini App, Gemini CLI, Antigravity, Cursor, Codex, Cline, Roo Code, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).
 
-- **Version**: `v4.0.0`
+- **Version**: `v4.1.0`
 - **Total Skills**: `14`
 - **License**: MIT
 - **Hub Repository**: [poorvith-mp/skillary](https://github.com/poorvith-mp/skillary)
@@ -17,6 +17,19 @@ npx skills add poorvith-mp/skills-sales
 Or install individual skills directly:
 ```bash
 npx skills add poorvith-mp/skills-sales --skill <skill-id>
+```
+
+### Gemini App (gemini.google.com)
+
+Upload any `SKILL.md` file or `.skill` bundle via **Settings → Skills → Import** in the Gemini App.
+
+### Manual (any agent)
+
+Clone this repo and copy the skill folder to your agent's skills directory:
+```bash
+git clone https://github.com/poorvith-mp/skills-sales.git
+cp -R skills-sales/skills/<skill-id> ~/.gemini/skills/   # Gemini CLI
+cp -R skills-sales/skills/<skill-id> ~/.claude/skills/    # Claude Code
 ```
 
 ## Skills in this Collection
